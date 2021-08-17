@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.Contact{
+
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background:url(https://cdn.theatlantic.com/thumbor/pyBT-Ed2caw2wMO5Whhf9_Y_3v8=/1200x798/media/img/photo/2012/05/views-from-the-night-sky-london-and-the-uk/l03_00004920/original.jpg);
+  background-size: cover;
+  
+}
+.Contact .content {
+
+ max-width: 800px;
+ text-align: center;
+
+}
+.Contact .content h1{
+ font-size: 36px;
+ font-weight: 500;
+ color: #fff;
+}
+.Contact .content p{
+ 
+ font-weight: 300;
+ color: #fff;
+}
+.container{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+}
+
+.container .contactInfo{
+   color: #fff;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+}
+.container .contactInfo h2{
+   position: relative;
+   padding: 20px 0;
+   display: flex;
+}
+.contactForm{
+  width: 40%;
+  padding: 40px;
+  background: #fff
+
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm .inputBox {
+   position: relative;
+   width: 100%;
+   margin-top: 10px;
+   color: #777;
+}
+
+
+.contactForm .inputBox input[type="Submit"]
+{
+   width: 100px;
+   background: #00bcd4;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   padding: 10px;
+   font-size: 18px;
+   margin-top: 30px;
+   border-radius: 14px;
+
+}
+form{
+  margin: 35px;
+}
+.input-field
+{
+  width:400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+.textarea-field
+{
+
+  height: 130px;
+  padding-top: 10px;
+}
